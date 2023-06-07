@@ -125,7 +125,7 @@ export const SkillBars: SkillBarsType[] = [
   },
   {
     Stack: 'JavaScript',
-    progressPercentage: '70',
+    progressPercentage: '80',
   },
   {
     Stack: 'TypeScript',
@@ -133,7 +133,7 @@ export const SkillBars: SkillBarsType[] = [
   },
   {
     Stack: 'Node.js',
-    progressPercentage: '60',
+    progressPercentage: '75',
   },
   {
     Stack: 'Frameworks',
@@ -150,11 +150,12 @@ export const educationInfo: EducationType[] = [
     schoolName: 'RTMNU University Nagpur',
     subHeader: 'Bachelor in Mechanical Engineering',
     duration: 'September 2019 - April 2022',
-    desc: 'Participated in the research of XXX and published 3 papers.',
+    desc: 'Participated in the research of innovative and automated automobile washing systems..',
     grade: 'Grade A',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Fundamental Engineering Principles',
+      'Design and CAD Software',
+      'Manufacturing Processes and Materials'
     ],
   },
    
@@ -165,8 +166,8 @@ export const experience: ExperienceType[] = [
     role: 'Backend Trainee',
     company: 'FunctionUp',
     companyLogo: 'https://media.licdn.com/dms/image/C4D0BAQHn-mst7Jf8Pw/company-logo_200_200/0/1638195127235?e=2147483647&v=beta&t=PDDQjWKWpGJwb8n_r4PG7kBXblPtJYzC-Dtyy_oA0B8',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+    date: 'May 2022 - Nov 2022',
+    desc: 'The individual has received training in core web backend technologies including JavaScript, Node.js, and Express.js. i have practical experience working with NoSQL database MongoDB for efficient data management. i are familiar with cloud technologies, particularly AWS S3, for seamless file upload and read operations. Additionally, i have hands-on experience with data caching using Redis. i possess a solid understanding of distributed version control systems such as Git and GitHub for effective collaboration and code management. Furthermore, i have intermediate knowledge of Data Structures and Algorithms, enabling them to optimize system performance and efficiency..',
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -177,8 +178,8 @@ export const experience: ExperienceType[] = [
     role: 'Software Developer',
     company: 'Apera Solutions',
     companyLogo: 'https://i.pinimg.com/736x/72/3d/da/723dda1879c5a3c2171992e69d810d7e.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+    date: 'dec 2022',
+    desc:  "As a backend developer at Apera Software, I design, implement, and maintain server-side code for the software's applications and services. My expertise lies in Node.js, frameworks like Express and Nest.js, and writing graphQL and rest APIs. I work with databases like PostgreSQL or MongoDB, ensuring data integrity and optimal performance. API development and integration are crucial for seamless communication between software ecosystem components. My focus is on system architecture, scalability, and thorough testing to deliver reliable and high-performing software solutions." ,
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -233,7 +234,7 @@ export const seoData: SEODataType = {
   description:
     'A passionate Backend Web Developer.',
   author:  'Himanshu Supare',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+  image: "https://photos.app.goo.gl/gmLQnYPE3uU4EUjV7",
   url: 'https://developer-portfolio-hrsupare.vercel.app',
   keywords: [
     'Himanshu',

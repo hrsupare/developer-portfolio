@@ -32,7 +32,7 @@ const Greetings = () => {
                   <h1 className="display-3 text-white">
                     {greetings.title + ' '}
                   </h1>
-                  <p className="lead text-white font-serif">{greetings.description}</p>
+                  <p className="lead text-white font-serif ">{greetings.description}</p>
                   <SocialLinks />
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
