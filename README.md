@@ -51,7 +51,7 @@
 
 👤 **Himanshu Supare**
 
-- Website: https://hanzla.netlify.app
+<!-- - Website: https://hanzla.netlify.app -->
 - Github: [@hrsupare](https://github.com/hrsupare)
 - LinkedIn: [@hrsupare](https://linkedin.com/in/hrsupare)
 
