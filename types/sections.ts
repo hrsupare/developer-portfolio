@@ -86,3 +86,11 @@ export type FeedbackType = {
   name: string;
   feedback: string;
 };
+
+
+export type BlogCardType = {
+  name: string;
+  discription: string;
+  link: string
+  blogImage :string
+};

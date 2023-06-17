@@ -9,8 +9,9 @@ import {
   SocialLinksType,
   GreetingsType,
   FeedbackType,
+  BlogCardType,
 } from './types/sections';
-
+ import nodejs from './nodejs.png'
 export const greetings: GreetingsType = {
   name: 'Himanshu Supare',
   title: "Hi, I'm Himanshu",
@@ -79,7 +80,7 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'graphQL',
           fontAwesomeClassName: 'logos:graphql',
         },
-       
+
         {
           skillName: 'mongodb',
           fontAwesomeClassName: 'logos:mongodb',
@@ -114,7 +115,7 @@ export const skillsSection: SkillsSectionType = {
         },
       ],
     },
-    
+
   ],
 };
 
@@ -158,7 +159,7 @@ export const educationInfo: EducationType[] = [
       'Manufacturing Processes and Materials'
     ],
   },
-   
+
 ];
 
 export const experience: ExperienceType[] = [
@@ -173,13 +174,13 @@ export const experience: ExperienceType[] = [
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
   },
-   
+
   {
     role: 'Software Developer',
     company: 'Apera Solutions',
     companyLogo: 'https://i.pinimg.com/736x/72/3d/da/723dda1879c5a3c2171992e69d810d7e.jpg',
     date: 'dec 2022',
-    desc:  "As a backend developer at Apera Software, I design, implement, and maintain server-side code for the software's applications and services. My expertise lies in Node.js, frameworks like Express and Nest.js, and writing graphQL and rest APIs. I work with databases like PostgreSQL or MongoDB, ensuring data integrity and optimal performance. API development and integration are crucial for seamless communication between software ecosystem components. My focus is on system architecture, scalability, and thorough testing to deliver reliable and high-performing software solutions." ,
+    desc: "As a backend developer at Apera Software, I design, implement, and maintain server-side code for the software's applications and services. My expertise lies in Node.js, frameworks like Express and Nest.js, and writing graphQL and rest APIs. I work with databases like PostgreSQL or MongoDB, ensuring data integrity and optimal performance. API development and integration are crucial for seamless communication between software ecosystem components. My focus is on system architecture, scalability, and thorough testing to deliver reliable and high-performing software solutions.",
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -192,7 +193,7 @@ export const projects: ProjectType[] = [
     name: 'Email Based authentication System',
     desc: 'The Email-Based Authentication System project implements a secure method of verifying user identities by utilizing email addresses as the primary authentication factor.',
     github: 'https://github.com/hrsupare/EmailBasedAuthentication',
-     
+
   },
   {
     name: 'Blogging Site',
@@ -210,7 +211,7 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/hrsupare/E-cartSite',
   },
 ];
- 
+
 export const feedbacks: FeedbackType[] = [
 
   {
@@ -223,8 +224,24 @@ export const feedbacks: FeedbackType[] = [
   //   feedback:
   //     'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
   // },
-]; 
+];
+export const BlogsContent: BlogCardType[] = [
 
+  {
+    name: 'Backend JavaScript: Unveiling the Powerhouse of Web Development',
+    discription:
+      'Welcome, fellow adventurers of the digital realm! Today, we embark on an exhilarating journey through the world of backend JavaScript. But fear not, for this adventure will be as easy to follow as a friendly guide and as engaging as a captivating story.....',
+    link: "https://link.medium.com/pwCY1IZoHAb" ,
+    blogImage:"https://miro.medium.com/v2/resize:fit:1100/format:webp/1*BCtxoa2InpbdBo92b3X9xg.png"
+  },
+  {
+    name: 'Node.js: The Fun and Friendly Magician of Web Development…',
+    discription:
+      'Hello, fellow programmers! Prepare yourself for an exciting journey as we explore the magnificent world of Node.js. It’s like having a hilarious magician at your disposal who can easily perform spectacular web development feats by simply waving their wand.',
+    link: "https://link.medium.com/PEf1CC1oHAb" , 
+    blogImage:"https://buddy.works/guides/covers/test-nodejs-app/share-nodejs-logo.png"
+  },
+];
 // option to hide or show the ContactUs component
 export const showContactUs: boolean = true;
 
@@ -233,7 +250,7 @@ export const seoData: SEODataType = {
   title: 'Himanshu Supare',
   description:
     'A passionate Backend Web Developer.',
-  author:  'Himanshu Supare',
+  author: 'Himanshu Supare',
   image: "https://photos.app.goo.gl/gmLQnYPE3uU4EUjV7",
   url: 'https://developer-portfolio-hrsupare.vercel.app',
   keywords: [
